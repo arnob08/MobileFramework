@@ -1,0 +1,3 @@
+pageClasses/AmazonHomePage.class
+application/page/base/ApplicationPageBase.class
+testClasses/AmazonHomePageTest.class

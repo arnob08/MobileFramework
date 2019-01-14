@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test suite on Android Phone]">
+  <parameter name="deviceType" value="Emulator"/>
+  <parameter name="OS" value="Android"/>
+  <parameter name="appName" value="ebay.apk"/>
+  <parameter name="platformType" value="Phone"/>
+  <parameter name="moduleName" value="GoogleMap"/>
+  <parameter name="deviceName" value="Android Emulator"/>
+  <parameter name="version" value="9"/>
+  <test name="Home page">
+    <classes>
+      <class name="testCases.EbaySignInpageTest"/>
+    </classes>
+  </test> <!-- Home page -->
+</suite> <!-- Failed suite [Test suite on Android Phone] -->
