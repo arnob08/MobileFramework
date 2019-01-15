@@ -7,7 +7,7 @@ import pagefactory.AlertsPage.Alerts;
 import pagefactory.UiCatalogPage.UiCatalog;
 
 
-public class AlertsTest extends MobileAPI {
+public class AlertsTest extends Alerts {
     public Alerts alerts(){
         UiCatalog uiCatalog = PageFactory.initElements(ad,UiCatalog.class);
         uiCatalog.getAlerts();

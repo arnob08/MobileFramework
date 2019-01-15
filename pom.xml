@@ -14,6 +14,7 @@
         <!--  <module>UiCatalog</module>-->
         <module>UiCatalog</module>
         <module>AmazonWeb</module>
+        <module>iOSwebApp</module>
 
     </modules>
 

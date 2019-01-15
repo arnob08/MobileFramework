@@ -28,6 +28,11 @@ public class AmazonHomePage extends ApplicationPageBase {
     @FindBy(id = "music")
     private WebElement music;
 
+    @FindBy(id = "nav-logobar-greeting")
+    private WebElement signIn;
+
+
+
 
 public String dealText(){
     TestLogger.log("Getting text from Deals");
@@ -82,4 +87,16 @@ public boolean trendingCheck(){
     boolean rsl = ad.scrollTo("Trending deals").isDisplayed();
     return rsl;
 }
+
+public boolean signInCheck(){
+    TestLogger.log("Checking for sign In button");
+    boolean rsl = signIn.isDisplayed();
+    return rsl;
+}
+
+public void signInClick(){
+    TestLogger.log("Looking for Sign In Botton");
+    click(signIn,"Sign In");
+}
+
 }
