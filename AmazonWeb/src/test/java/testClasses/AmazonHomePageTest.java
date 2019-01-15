@@ -26,7 +26,7 @@ public class AmazonHomePageTest extends AmazonHomePage {
     @Test
     public void wholeFoodTextTest(){
         String actualText = objOfAmazonHomePage.wholeFoodText();
-        String expectedText = "wholefoods";
+        String expectedText = "Whole Foods";
         Assert.assertEquals(actualText,expectedText);
     }
 
