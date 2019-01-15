@@ -27,7 +27,8 @@
 
     <test name="Home page" preserve-order="true">
         <classes>
-            <!--<class name="testCases.EbayBatPageTest"/>-->
+            <class name="testCases.EbayHomeTest"/>
+            <class name="testCases.EbayBatPageTest"/>
             <class name="testCases.EbaySignInpageTest"/>
         </classes>
     </test>

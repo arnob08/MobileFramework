@@ -17,30 +17,30 @@ public class EbayHomeTest extends EbayHome {
 
     }
 
-//
-//    @Test
-//    public void cricTest(){
-//        String actualText = objOfCricBuzzHome.sellingtext();
-//        String expectedText = "SELLING";
-//        Assert.assertEquals(actualText,expectedText);
-//}
-//
-//
-//   @Test
-//    public void homeTest() {
-//       String actualText = objOfCricBuzzHome.dealText();
-//       String expectedText = "DEALS";
-//       Assert.assertEquals(actualText, expectedText);
-//   }
-//    @Test
-//    public void categoryTest(){
-//        String actualText = objOfCricBuzzHome.categoriesText();
-//        String expectedTest = "CATEGORIES";
-//        Assert.assertEquals(actualText,expectedTest);
-//
-//
-//
-//}
+
+    @Test
+    public void cricTest(){
+        String actualText = objOfCricBuzzHome.sellingtext();
+        String expectedText = "SELLING";
+        Assert.assertEquals(actualText,expectedText);
+}
+
+
+   @Test
+    public void homeTest() {
+       String actualText = objOfCricBuzzHome.dealText();
+       String expectedText = "DEALS";
+       Assert.assertEquals(actualText, expectedText);
+   }
+    @Test
+    public void categoryTest(){
+        String actualText = objOfCricBuzzHome.categoriesText();
+        String expectedTest = "CATEGORIES";
+        Assert.assertEquals(actualText,expectedTest);
+
+
+
+}
 @Test
     public void tendingTest(){
 
